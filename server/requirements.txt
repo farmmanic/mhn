@@ -22,3 +22,4 @@ hpfeeds-logger==0.0.7.7
 geoip2==2.9.0
 pysqlite>=2.8.0
 email_validator==1.0.5
+dnspython>=2.6.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
