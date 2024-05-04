@@ -1,4 +1,4 @@
-FROM ubuntu:mantic-20240216
+FROM ubuntu:mantic-20240427
 MAINTAINER threatstream
 
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
