@@ -12,7 +12,7 @@ bcrypt==3.1.4
 python-dateutil==2.2
 celery==4.4.0rc5
 redis==3.2.1
-requests==2.21.0
+requests==2.32.2
 xmltodict==0.12.0
 uWSGI==2.0.18
 pymongo==3.7.2
@@ -23,3 +23,8 @@ geoip2==2.9.0
 pysqlite>=2.8.0
 email_validator==1.0.5
 dnspython>=2.6.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+mako>=1.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
